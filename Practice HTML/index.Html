@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms and inputs</title>
+</head>
+<body>
+
+     <details style="background-color: aqua;">
+        <summary>If an electric train is moving north at 100 mph and the wind is blowing to the west at 10 mph, which way does the smoke from the train go?</summary>
+        Electric trains don’t produce smoke.
+    </details><br><br>
+    <details style="background-color: burlywood;">
+        <summary>
+            What Will You Learn?
+        </summary>
+        <ul>
+        <li>Power of beliefs</li>
+        <li>A-B-C Framework of mind </li>
+        <li>Types of defence mechanisms </li>
+        <li>effective regulation of emotions (Anger, Anxiety, Guilt & Shame)</li>
+        <li>Identify deep rooted irrational beliefs </li>
+        <li>Differentiate between irrational vs rational beliefs</li>
+        <li>Framework of ‘Cause – Effect’</li>
+        <li>Challenge & transform rigid, limiting beliefs </li>
+        <li>Healthy Risk Taking </li>
+        <li>Ways to deal with difficult people</li> 
+        <li>Overcome Procrastination</li> 
+        <li>Develop Assertiveness</li> 
+    </ul>  
+    </details><br>
+    <br>
+    <fieldset>
+        <legend>Application Form</legend>
+    <form action="./result.html">
+        
+      <label for="fName">First Name:</label>
+      <input type="text" id="fName" name="fName" placeholder="Enter your first name"></inpiut>
+      <label lName>Last Name:</label>
+      <input type="text" id="lName" name="lName" placeholder="Enter your last name">
+      <br><br>
+      <label for="DOB">Date of Birth</label>
+      <input type="date" id="DOB" name="DOB">
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" placeholder="Enter your age">
+      <label for="Gender:">Gender</label>
+      <select name="gender" id="gender">
+        <option value="select your option">Select</option>
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+      <option value="non-binary">Non-Binary</option>
+      </select><br><br>
+      <label for="email">Email</label>
+      <input for="email" id="email" name="email" placeholder="enter your email">
+      <label for="position">Position:</label>
+      <input type="radio" id="position" name=position value="frontend">Frontend Dveloper
+      <input type="radio" id="position" name=position value="backend">backend Dveloper
+      <input type="radio" id="position" name=position value="fullstack">Fullstack Dveloper<br><br>
+      <label for="programming"> Programming Languages:</label>
+      <input type="checkbox" id="programming" name="programming1" value="java"> java
+      <input type="checkbox" id="programming" name="programming1" value="python"> Python
+      <input type="checkbox" id="programming" name="programming1" value="java script"> Java script<br><br>
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="password"><br><br>
+      <label for="nymber">Phone number:</label>
+      <input type="tel" id="number" name="number" placeholder="enter your phone number"><br><br>
+      <label for="intrest">Intrest</label>
+      <textarea id="intrest" name="intrest" col="20" rows="10"></textarea>
+      <input type="reset" id="reset" name="reset">
+      <input type="submit" id="submit" name="submit">
+    </form>
+</fieldset>
+    </body>
+    </html>
